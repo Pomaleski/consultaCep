@@ -1,0 +1,22 @@
+body {
+    height: 100vh;
+}
+
+#info {
+    opacity: 0;
+    max-height: 0px;
+    transition: all 1s ease-in-out;
+}
+
+#info.active {
+    opacity: 1;
+    max-height: 100vh;
+}
+
+label {
+    text-shadow: 0 0 5px #000;
+}
+
+#info p {
+    text-shadow: 0 0 2px #000;
+}
